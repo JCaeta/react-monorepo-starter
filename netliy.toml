@@ -1,3 +1,3 @@
 [build]
-    command = "yarn custoemr:build" # Build command
-    publish = "qresto-customer/.next" # Path to the build output
+    command = "yarn app1:build" # Build command
+    publish = "app1/.next" # Path to the build output

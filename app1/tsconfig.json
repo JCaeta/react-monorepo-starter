@@ -17,17 +17,16 @@
         "baseUrl": ".",
         "paths": {
             "@/*": ["./src/*"],
-            "@/requests": ["../qresto-components/src/pages/api/requests"],
-            "@/Customer/*": ["../qresto-components/src/components/Customer/*"],
-            "@/Common/*": ["../qresto-components/src/components/Common/*"],
-            "@/Restaurant/*": ["../qresto-components/src/components/Restaurant/*"],
+            "@/requests": ["../components/src/pages/api/requests"],
+            "@/App1/*": ["../components/src/components/App1/*"],
+            "@/Common/*": ["../components/src/components/Common/*"],
+            "@/App2/*": ["../components/src/components/App2/*"],
         }
     },
     "include": [
         "next-env.d.ts", 
         "**/*.ts", 
         "**/*.tsx", 
-        // "src/pages/blog/second.js"
     ],
     "exclude": ["node_modules", "templates"]
 }
