@@ -13,5 +13,8 @@
         "app1:build-start": "yarn workspace app1 build && yarn workspace app1 start",
         "app2:build": "yarn workspace app2 build",
         "app2:start": "yarn workspace app2 start"
+    },
+    "dependencies": {
+        "socket.io-client": "^4.7.3"
     }
 }
